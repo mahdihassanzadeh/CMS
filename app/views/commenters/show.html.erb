@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @commenter.name %>
+</p>
+
+<p>
+  <b>Email address:</b>
+  <%= @commenter.email_address %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @commenter.description %>
+</p>
+
+<p>
+  <b>Page:</b>
+  <%= @commenter.page_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_commenter_path(@commenter) %> |
+<%= link_to 'Back', commenters_path %>

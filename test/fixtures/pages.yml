@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  permalink: MyString
+  body: MyText
+  created_at: 2012-04-23 13:19:25
+  updated_at: 2012-04-23 13:19:25
+
+two:
+  title: MyString
+  permalink: MyString
+  body: MyText
+  created_at: 2012-04-23 13:19:25
+  updated_at: 2012-04-23 13:19:25
+
+third:
+  title: Programming ruby 1.9
+  body:  TestBodyInFixtureWhich is yml file located in /test/fixtures used for testing

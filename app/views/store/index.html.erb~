@@ -1,0 +1,10 @@
+<% if notice %>
+<p id="notice"><%= notice%></p>
+<%end%>
+<h1> Your Pragmatic Catalog</h1>
+<% @pages.each do |page| %>
+<div class="entry">
+<h3> <%= page.title%></h3>
+<%= sanitize(page.body)%>
+</div>
+<%end%>

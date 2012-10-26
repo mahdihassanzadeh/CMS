@@ -1,0 +1,15 @@
+<% if notice %>
+<p id="notice">
+	<%= notice%>
+</p>
+<%end%> <h1> Your Pragmatic Catalog</h1>
+<% @pages.each do |page| %>
+<div class="entry">
+	<div class="text">
+	<h3> <%= page.title%></h3>
+	<%= sanitize(page.body)%>
+</div>
+</div>
+<%= button_to "Add a comment", page, :method => 'get'%>
+<%end%> 
+<p><%= will_paginate @pages %></p>

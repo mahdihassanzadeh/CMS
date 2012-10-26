@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 829aefa18b89fd6b79f7c96b9001cbc6982fa9a7 ahdkhalid <ahdkhalid@yahoo.com> 1335848209 +0430	commit (initial): cms
+829aefa18b89fd6b79f7c96b9001cbc6982fa9a7 a6596795929547f78255811c0c20157a2c06ea62 ahdkhalid <ahdkhalid@yahoo.com> 1337073600 +0430	commit: Creating the Catalog Listing
+a6596795929547f78255811c0c20157a2c06ea62 89a9802da1145ddfb2e409adab3208204a7907fe mahdi <mahdi.hassanzadeh66@gmail.com> 1348541459 -0500	commit: Configured for deployment to Heroku
+89a9802da1145ddfb2e409adab3208204a7907fe bd6ab1f1b5ef6116caf0a9c55a0f2951a604a30b mahdi <mahdi.hassanzadeh66@gmail.com> 1348542488 -0500	commit: solving gem file problem
+bd6ab1f1b5ef6116caf0a9c55a0f2951a604a30b f706e74ffe4d87f649fd60f398843a01c27c75f4 mahdi <mahdi.hassanzadeh66@gmail.com> 1348542645 -0500	commit: solving gem file problem
+f706e74ffe4d87f649fd60f398843a01c27c75f4 00fd4cb5c2561aa7af9666738422d51690fc0d54 mahdi <mahdi.hassanzadeh66@gmail.com> 1348543035 -0500	commit: solving pages table problem
+00fd4cb5c2561aa7af9666738422d51690fc0d54 f85148d3cea2825bb6c51742882e12f71dd5653b mahdi <mahdi.hassanzadeh66@gmail.com> 1348543261 -0500	commit: solving the sidebar home url
+f85148d3cea2825bb6c51742882e12f71dd5653b 57b69c86a1bf2127e9419337cf6dcb83d25d1592 mahdi <mahdi.hassanzadeh66@gmail.com> 1348543594 -0500	commit: remove extra links from homepage sidebar
+57b69c86a1bf2127e9419337cf6dcb83d25d1592 1a3e5bccf71a3798cdce58e851946f5f6f502c4d mahdi <mahdi.hassanzadeh66@gmail.com> 1349054581 -0500	commit: ajax
+1a3e5bccf71a3798cdce58e851946f5f6f502c4d 1f156a8ebe6fbe9110638e78c1989e49997c5cb8 mahdi <mahdi.hassanzadeh66@gmail.com> 1349420501 -0500	commit: adding the slide down screen and javascript
+1f156a8ebe6fbe9110638e78c1989e49997c5cb8 8f639b17abffe1c1f3e91cfef2664974276539e5 mahdi <mahdi.hassanzadeh66@gmail.com> 1349420935 -0500	commit: fix the reload
+8f639b17abffe1c1f3e91cfef2664974276539e5 cb8542fdc4445794578ada085878149dbf4d5854 mahdi <mahdi.hassanzadeh66@gmail.com> 1349844989 -0500	commit: adding css
+cb8542fdc4445794578ada085878149dbf4d5854 da994c067bee0ad7ba2570406805990047db7e5f mahdi <mahdi.hassanzadeh66@gmail.com> 1349854097 -0500	commit: adding page and comment pagination
+da994c067bee0ad7ba2570406805990047db7e5f da994c067bee0ad7ba2570406805990047db7e5f mahdi <mahdi.hassanzadeh66@gmail.com> 1349922850 -0500	checkout: moving from master to CMS1
+da994c067bee0ad7ba2570406805990047db7e5f e63ef8dd29291f5dd63cce1e3de2a5c5c0a15a3a mahdi <mahdi.hassanzadeh66@gmail.com> 1350355475 -0500	commit: create github
+e63ef8dd29291f5dd63cce1e3de2a5c5c0a15a3a 917de0ec541b6a673f5ffe518ebe58f6620f5128 mahdi <mahdi.hassanzadeh66@gmail.com> 1351220508 -0500	commit: Configured for deployment to Heroku

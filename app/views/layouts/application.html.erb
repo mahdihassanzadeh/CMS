@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CMS</title>
+  <%= stylesheet_link_tag "styles", :media=>"all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+
+</head>
+
+<body>
+<div id="main">
+<div id="content">
+<div id="logo">
+<div class="logo_r">
+<h5>Welcome to Our CMS</h5>
+</div>
+</div>
+<%=@page_title || "Pragmatic BookShelf"%>
+<div id="columns">
+<div id="left">
+<div class="list">
+<div class="opt">
+        <h1>Menu</h1>
+		<div class="opt_a">
+        <a href="http://localhost:3000"> Home</a><br/>
+		</div>
+			<div class="opt_a">
+			<a href="http://localhost:3000/faq">Questions</a><br/>
+			</div>
+	<div class="opt_a">
+			<a href="http://localhost:3000/pages/new">News</a><br/>
+			</div>
+  <div class="opt_a">
+  <a href="http://localhost:3000/contact">Contact</a><br/>
+    </div>
+	</div>
+	</div>
+	</div>
+    
+<div id="left">
+<div class="list">
+
+</div>
+</div>
+<div id="right">
+<div class="text">
+<%= yield %>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

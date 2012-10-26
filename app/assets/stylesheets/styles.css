@@ -1,0 +1,278 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #B4B4B4;
+	line-height: 20px;
+}
+
+
+#bg2 {
+	width: 100%;
+	height: 100%;
+	background: url(http://localhost:3000/assets/bg_top.gif)  top repeat-x;}
+
+#header { 
+	width:1016px;
+	background: url(http://localhost:3000/assets/header.jpg) left top no-repeat;
+	height: 376px;
+}
+
+#logo {	
+		height: 304px;
+		width: 100%;
+		background: url(http://localhost:3000/assets/big_img.jpg) left top no-repeat;
+}
+
+#logo H2 {
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		font-size:18px;
+		font-style:italic;
+		}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.logo_l {
+	float:left;
+	width:290px;
+	padding: 185px 0px 0px 14px;
+	
+	}
+	
+.logo_r {
+	float: right;
+	width:360px;
+	padding: 67px 36px 0px 0px;
+	}
+	
+H5 {
+	font-style:italic;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 0px 0px 10px 33px;
+	font-weight:100;}
+	
+.f_ibw {
+	font-style:italic;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight:bold;
+	
+}
+
+
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight:100;
+}
+
+#buttons{
+	text-align:center;
+	height: 66px;
+	margin-left: 0px;
+	padding-top: 0px;
+	background: url(http://localhost:3000/assets/buttons.jpg) left top no-repeat;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 19px;
+	height: 40px;
+}
+
+.but {
+	width: 201px;
+	background: url(http://localhost:3000/assets/but.png) left top no-repeat;
+}
+#buttons .but:hover {
+	text-decoration: underline;}
+
+.razd_b {
+	float:left;
+	width:2px;
+	height:43px;
+	background: url(http://localhost:3000/assets/b_razd.gif) 0px 15px no-repeat;}
+
+#main {
+	width: 1016px;
+	margin: 0px auto;
+	padding-top: 8px; }
+
+#content{
+	width: 1016px;
+	background: url(http://localhost:3000/assets/cont_razd.gif) 296px 0px repeat-y;
+}
+
+#left{
+	width: 290px;
+	float: left;
+	color:#000000;
+}
+
+.list { padding: 0px 0px 20px 0px;}
+
+.opt {
+	background:url(http://localhost:3000/assets/opt.gif) bottom repeat-x;
+	height: 38px;}
+
+.opt_a {
+	padding: 10px 0px 0px 33px;
+	background:url(http://localhost:3000/assets/opt_a.gif) 10px 14px no-repeat;
+	}
+.opt_a:hover {
+	padding: 10px 0px 0px 33px;
+	background: url(http://localhost:3000/assets/opt_ah.gif) 10px 14px no-repeat;
+	}
+	
+.opt_a a {
+	color:#000000;
+	text-decoration:none;}
+
+.left_b {
+		padding: 3px 15px 0px 53px;
+		font-size: 12px;
+		line-height: 18px;
+}
+
+.box10 { 
+	background: url(http://localhost:3000/assets/img_12.gif) 7px 10px no-repeat #EFEFEF;
+	width: 288px;
+		}
+.box11{ 
+	background: url(http://localhost:3000/assets/img_13.gif) 7px 10px no-repeat #EFEFEF;
+	width: 288px;}
+
+.box_bot {
+		height: 9px;
+		background:url(http://localhost:3000/assets/box_bot.gif) left bottom no-repeat;
+		width: 288px;}
+		
+.box_top {
+		height: 9px;
+		background: url(http://localhost:3000/assets/box_top.gif) left top no-repeat;
+		width: 288px;}
+
+
+
+
+.text{
+	padding: 10px 10px 10px 12px;
+	line-height: 18px;
+	background:url(http://localhost:3000/assets/bg_text.jpg) left top no-repeat;
+}
+
+.text a{
+	color: #F77900;
+	font-weight: bold
+}
+
+
+#left .img {	float:left;
+		margin: 6px 15px 5px 0px;
+}
+
+#right .img {	float:left;
+		margin: 3px 15px 3px 0px;
+}
+
+#left span {	color:#F37901;
+	text-decoration: underline;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#right span {	color:#F37901;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#left H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 17px 0px 20px 0px;
+	background:url(http://localhost:3000/assets/tit_left.jpg) left top no-repeat;
+}
+
+#right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align:left;
+	padding: 17px 0px 20px 13px;
+	background: url(http://localhost:3000/assets/tit_right.jpg) 0px 0px no-repeat;
+}
+
+
+.title { background: url(http://localhost:3000/assets/right_tit2.gif) left bottom repeat-x;}
+
+.read{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 10px;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#right{
+	float: right;
+	width: 710px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer{
+	height: 54px;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	padding: 13px 0px 0px 0px;
+	background: url(http://localhost:3000/assets/footer.jpg) 0px 8px  no-repeat;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: underline;
+}

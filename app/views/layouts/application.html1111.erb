@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CMS</title>
+		<%= stylesheet_link_tag "application", :media=>"all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body id="store">
+		<div id="banner">
+			<%= image_tag("logo.png")%>
+			<%= @page_title || "Pragmatic BookShelf"%>
+		</div>
+		<div id="columns">
+			<div id="side">
+				<a href="<% 'hostname'.strip %>/"> Home</a>
+				<br/>
+				<a href="<% 'hostname'.strip %>/faq">Questions</a>
+				<br/>
+				<a href="<% 'hostname'.strip %>/pages/new">New Post</a>
+			</div>
+			<div id="main">
+				<%= yield %>
+			</div>
+		</div>
+	</body>
+</html>

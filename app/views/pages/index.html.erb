@@ -1,0 +1,31 @@
+<div id="page_list" class="divStyle">
+
+<h1>Listing pages</h1>
+<hr/>
+<table>
+
+
+<% @pages.each do |page| %>
+  <tr class="<%= cycle('list_line_odd','list_line_even') %>">
+
+    <td class="list_description">
+<dl>
+<dt><%= page.title %></dt>
+<dd><%= truncate(strip_tags(page.body), :length =>70) %></dd>
+</dl> </td>
+    <td><%= page.created_at %></td>
+	<td class="list_actions">
+    <%= link_to 'Show', page %><br/>
+    <%= link_to 'Edit', edit_page_path(page) %><br/>
+    <%= link_to 'Destroy', page, confirm: 'Are you sure?', method: :delete %>
+<td><hr/></td>
+
+  </tr>
+<% end %>
+</table>
+<hr/>
+</div>
+
+<br />
+
+<%= link_to 'New Page', new_page_path %>

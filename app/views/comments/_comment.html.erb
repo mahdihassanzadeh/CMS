@@ -1,0 +1,17 @@
+<hr/>
+<% if comment == @current_comment %>
+<p class="list_line_odd">
+	<% else %>
+	<p>
+		<% end %>
+    <b>Commenter:</b>
+    <%= comment.commenter_name %>
+  </p>
+ <p>
+    <b>Email address:</b>
+    <%= comment.email_address %>
+  </p>
+  <p>
+    <b>Comment:</b>
+    <%= comment.description%>
+  </p>

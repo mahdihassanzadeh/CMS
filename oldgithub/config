@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = git@github.com:ahdkhalid/CMS.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[heroku]
+	account = work
+[remote "heroku"]
+	url = git@heroku.work:cms-csse-8sem.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "origin1"]
+	url = https://github.com/mahdihassanzadeh/CMS.git
+	fetch = +refs/heads/*:refs/remotes/origin1/*
+[remote "origin2"]
+	url = https://github.com/mahdihassanzadeh/CMS1.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*
+[remote "origin5"]
+	url = https://github.com/mahdihassanzadeh/CMS1.git
+	fetch = +refs/heads/CMS1:refs/remotes/origin5/CMS1

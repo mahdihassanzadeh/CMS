@@ -1,0 +1,60 @@
+  <script type="text/javascript">
+  $('documet').ready(function(){
+    $('#form_button').toggle(function(){
+      $('#two').slideDown(1000);
+	  $('#form_button').html("Hide Form");
+    },
+	function(){
+      $('#two').slideUp(1000);
+	  $('#form_button').html("Show Form");
+    })
+	
+  })
+   $('documet').ready(function(){
+    $('#button').click(function(){
+      $('#show_comment').toggle(1000);
+    })
+  })
+  </script>
+<p id="notice">
+	<%= notice %>
+</p>
+<div id="page_div">
+	<p>
+		<b>Title:</b>
+		<%= @page.title %>
+	</p>
+	<p>
+		<b>Permalink:</b>
+		<%= @page.permalink %>
+	</p>
+	<p>
+		<b>Body:</b>
+		<%= @page.body %>
+	</p>
+	<p>
+		<b>Created at:</b>
+		<%= @page.created_at %>
+	</p>
+	<p>
+		<b>Updated at:</b>
+		<%= @page.updated_at %>
+	</p>
+</div>
+<hr/>
+<h1>Comments</h1>
+<button id="button">Show Comment</button> <br />
+<div id="show_comment" style="display: none">
+	<% com=@page.comments.paginate( :page=>params[:page], :per_page => 2)%>
+	<%= render com %>
+	<%= will_paginate com %>
+</div>
+<hr/>
+<h1> Add a comment: </h1>
+<button id="form_button">Show Form</button> <br /><br />
+<div id="two" style="background:gray;display:none">
+	
+	<%= render "comments/form" %>
+</div>
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', pages_path %> 
