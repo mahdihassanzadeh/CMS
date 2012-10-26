@@ -26,18 +26,18 @@ body{
 #bg2 {
 	width: 100%;
 	height: 100%;
-	background: url(http://localhost:3000/assets/bg_top.gif)  top repeat-x;}
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/bg_top.gif)  top repeat-x;}
 
 #header { 
 	width:1016px;
-	background: url(http://localhost:3000/assets/header.jpg) left top no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/header.jpg) left top no-repeat;
 	height: 376px;
 }
 
 #logo {	
 		height: 304px;
 		width: 100%;
-		background: url(http://localhost:3000/assets/big_img.jpg) left top no-repeat;
+		background: url(http://cms-csse-8sem.herokuapp.com/assets/big_img.jpg) left top no-repeat;
 }
 
 #logo H2 {
@@ -97,7 +97,7 @@ H5 {
 	height: 66px;
 	margin-left: 0px;
 	padding-top: 0px;
-	background: url(http://localhost:3000/assets/buttons.jpg) left top no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/buttons.jpg) left top no-repeat;
 }
 
 #buttons a {
@@ -114,7 +114,7 @@ H5 {
 
 .but {
 	width: 201px;
-	background: url(http://localhost:3000/assets/but.png) left top no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/but.png) left top no-repeat;
 }
 #buttons .but:hover {
 	text-decoration: underline;}
@@ -123,7 +123,7 @@ H5 {
 	float:left;
 	width:2px;
 	height:43px;
-	background: url(http://localhost:3000/assets/b_razd.gif) 0px 15px no-repeat;}
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/b_razd.gif) 0px 15px no-repeat;}
 
 #main {
 	width: 1016px;
@@ -132,7 +132,7 @@ H5 {
 
 #content{
 	width: 1016px;
-	background: url(http://localhost:3000/assets/cont_razd.gif) 296px 0px repeat-y;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/cont_razd.gif) 296px 0px repeat-y;
 }
 
 #left{
@@ -144,16 +144,16 @@ H5 {
 .list { padding: 0px 0px 20px 0px;}
 
 .opt {
-	background:url(http://localhost:3000/assets/opt.gif) bottom repeat-x;
+	background:url(http://cms-csse-8sem.herokuapp.com/assets/opt.gif) bottom repeat-x;
 	height: 38px;}
 
 .opt_a {
 	padding: 10px 0px 0px 33px;
-	background:url(http://localhost:3000/assets/opt_a.gif) 10px 14px no-repeat;
+	background:url(http://cms-csse-8sem.herokuapp.com/assets/opt_a.gif) 10px 14px no-repeat;
 	}
 .opt_a:hover {
 	padding: 10px 0px 0px 33px;
-	background: url(http://localhost:3000/assets/opt_ah.gif) 10px 14px no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/opt_ah.gif) 10px 14px no-repeat;
 	}
 	
 .opt_a a {
@@ -167,21 +167,21 @@ H5 {
 }
 
 .box10 { 
-	background: url(http://localhost:3000/assets/img_12.gif) 7px 10px no-repeat #EFEFEF;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/img_12.gif) 7px 10px no-repeat #EFEFEF;
 	width: 288px;
 		}
 .box11{ 
-	background: url(http://localhost:3000/assets/img_13.gif) 7px 10px no-repeat #EFEFEF;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/img_13.gif) 7px 10px no-repeat #EFEFEF;
 	width: 288px;}
 
 .box_bot {
 		height: 9px;
-		background:url(http://localhost:3000/assets/box_bot.gif) left bottom no-repeat;
+		background:url(http://cms-csse-8sem.herokuapp.com/assets/box_bot.gif) left bottom no-repeat;
 		width: 288px;}
 		
 .box_top {
 		height: 9px;
-		background: url(http://localhost:3000/assets/box_top.gif) left top no-repeat;
+		background: url(http://cms-csse-8sem.herokuapp.com/assets/box_top.gif) left top no-repeat;
 		width: 288px;}
 
 
@@ -190,7 +190,7 @@ H5 {
 .text{
 	padding: 10px 10px 10px 12px;
 	line-height: 18px;
-	background:url(http://localhost:3000/assets/bg_text.jpg) left top no-repeat;
+	background:url(http://cms-csse-8sem.herokuapp.com/assets/bg_text.jpg) left top no-repeat;
 }
 
 .text a{
@@ -226,7 +226,7 @@ H5 {
 	color: #FFFFFF;
 	text-align: center;
 	padding: 17px 0px 20px 0px;
-	background:url(http://localhost:3000/assets/tit_left.jpg) left top no-repeat;
+	background:url(http://cms-csse-8sem.herokuapp.com/assets/tit_left.jpg) left top no-repeat;
 }
 
 #right H1{
@@ -236,11 +236,11 @@ H5 {
 	color: #ffffff;
 	text-align:left;
 	padding: 17px 0px 20px 13px;
-	background: url(http://localhost:3000/assets/tit_right.jpg) 0px 0px no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/tit_right.jpg) 0px 0px no-repeat;
 }
 
 
-.title { background: url(http://localhost:3000/assets/right_tit2.gif) left bottom repeat-x;}
+.title { background: url(http://cms-csse-8sem.herokuapp.com/assets/right_tit2.gif) left bottom repeat-x;}
 
 .read{
 	text-align:right;
@@ -262,7 +262,7 @@ H5 {
 	color: #ffffff;
 	text-align: center;
 	padding: 13px 0px 0px 0px;
-	background: url(http://localhost:3000/assets/footer.jpg) 0px 8px  no-repeat;
+	background: url(http://cms-csse-8sem.herokuapp.com/assets/footer.jpg) 0px 8px  no-repeat;
 }
 
 #footer a{
