@@ -4,11 +4,7 @@ class User < ActiveRecord::Base
   attr_accessor :password_confirmation
   attr_reader :password
   validate :password_must_be_present
-  private
 
-  def password_must_be_present
-    errors.add(:password, "Missing password") unless hashed_password.present?
-  end
   def User.encrypt_password(password, salt)
 Digest::SHA2.hexdigest(password + "wibble" + salt)
 end
@@ -29,4 +25,9 @@ end
       end
     end
 end
+  private
+
+  def password_must_be_present
+    errors.add(:password, "Missing password") unless hashed_password.present?
+  end
 end
